@@ -1,0 +1,245 @@
+body {
+    margin: 0%;
+    background-image: linear-gradient(to right, #390879, #5f0ace);
+}
+
+header {
+    background-image: linear-gradient(to right, #390879, #5f0ace);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 78px;
+    height: 68px;
+    padding: 8px 10px 0px 0px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.botao button {
+    padding: 27px 30px 27px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #39087900;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: none;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #2f0763;
+}
+
+#bloqueado button {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.VoltarTopo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.VoltarTopo:hover{
+    background-color: #000000c5;
+    border-radius: 50%;
+}
+
+.VoltarTopo img{
+    width: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.topo {
+    background-image: url(img/FundoRoxoVerde.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid;
+    border-color: #92fa0a;
+    padding-left: 7px;
+    justify-content: center;
+}
+
+.topo h1 {
+    margin-bottom: 0%;
+    font-size: clamp(4rem, 14em, 14em);
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 1163px) {
+    .topo h1 {
+        font-size: 5em;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    .topo h2 {
+        text-align: center;
+
+    }
+}
+
+.topo b {
+    color: #92fa0a;
+    font-weight: 1000;
+}
+
+.topo h2 {
+    margin-top: 0%;
+    padding-right: 1%;
+    color: #ffffff;
+    font-weight: 1000;
+}
+
+.containerCard {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.card {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: 23.6%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+    transition: 0.3s;
+    position: static;
+}
+
+.card:hover{
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.623);
+}
+
+.card img {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card a {
+    font-weight: 1000;
+    color: #5b00ab;
+    text-decoration: none;
+    font-size: 2.7em;
+    padding: 25px;
+    background-color: #92fa0a;
+    transition-duration: 0.4s;
+}
+
+.card a:hover {
+    font-weight: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #92fa0a;
+    text-decoration: none;
+    font-size: 2.7rem;
+    padding: 25px;
+    background-color: #5b00ab;
+    transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 1163px) {
+    .card a {
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 1000;
+    }
+}
+
+footer{
+    background-color: #000000ec;
+    color: aliceblue;
+    border-top: 5px solid;
+    border-color: #92fa0a;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    padding: 25px;
+}
+
+.social img{
+    width: 40px;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #00000000;
+    transition: 0.4s;
+}
+
+.social img:hover{
+    width: 40px;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #390879;
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    font-size: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.empresa li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.Direitos{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+footer a{
+    text-decoration: none;
+}

@@ -1,0 +1,238 @@
+body {
+    margin: 0%;
+    background-image: linear-gradient(to right, #390879, #5f0ace);
+}
+
+header {
+    background-image: linear-gradient(to right, #390879, #5f0ace);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 78px;
+    height: 68px;
+    padding: 8px 10px 0px 0px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.botao button {
+    padding: 27px 30px 27px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #39087900;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: none;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #2f0763;
+}
+
+#bloqueado button {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.VoltarTopo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.VoltarTopo:hover{
+    background-color: #000000c5;
+    border-radius: 50%;
+}
+
+.VoltarTopo img{
+    width: 55px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.topo{
+    background-image: url(img/TopoFundo.webp);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: white;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid;
+    border-color: #003cff;
+    justify-content: center;
+}
+
+.topo h1 {
+    margin-bottom: 0%;
+    font-size: clamp(4rem, 9em, 14em);
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 1163px) {
+    .topo h1 {
+        font-size: 4.0em;
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    .topo h2 {
+        text-align: center;
+
+    }
+}
+
+.topo b{
+    color: #003cff;
+}
+
+.topo h2{
+    margin-top: 0%;
+    padding-right: 1%;
+    color: #003cff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5%;
+}
+
+.Escalacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1.5%;
+    margin-top: 5%;
+}
+
+.Escalacao img{
+    width: 68%;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cardDados {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: 15.8%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    justify-content: end;
+    margin-bottom: 25px;
+    margin-top: 1.5%;
+    background-color: #92fa0a;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cardDados img{
+    flex-wrap: wrap;    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardDados p{
+    color: #5f0ace;
+    font-size: 170%;
+    font-weight: 1000;
+    cursor: default;
+    flex-wrap: wrap;
+}
+
+.Escalacao p{
+    color: #5f0ace;
+    font-size: 400%;
+    font-weight: 1000;
+    cursor: default;
+    background-color: #92fa0a;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 68%;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
+
+footer{
+    background-color: #000000ec;
+    color: aliceblue;
+    border-top: 5px solid;
+    border-color: #92fa0a;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    padding: 25px;
+}
+
+.social img{
+    width: 40px;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #00000000;
+    transition: 0.4s;
+}
+
+.social img:hover{
+    width: 40px;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #390879;
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    font-size: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.empresa li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.Direitos{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.664);
+}
